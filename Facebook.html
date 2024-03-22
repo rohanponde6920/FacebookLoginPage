@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Facebook Login Page</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			background-color: #CECECE;
+		}
+		.mdiv{
+			position: absolute;
+			margin: 5% 10%;
+		}
+		.fblogo{
+			color:#1877F2;
+			font-size: 75px;
+			font-family: cursive;
+		}
+		.para{
+			font-family: cursive;
+			font-size: 25px;
+			color: #454545;
+		}
+		.lgnfrm{
+			height: 400px;
+			width: 350px;
+			margin: 10% 60%;
+			border-radius: 12px;
+			box-shadow: 0px 0px 20px lightgrey;
+		}
+		input{
+			width: 90%;
+			height: 30px;
+			background-color: white;
+			border: none;
+		}
+		.user
+		{
+			margin-top: 30px;
+			margin-bottom: 30px;
+			height: 40px;
+			width: 80%;
+			border: 1px solid gray;
+			font-size: 20px;
+			padding-left: 20px;
+			border-radius: 5px;
+		}
+		.pass
+		{
+			margin-bottom:30px;
+			height: 40px;
+			width: 80%;
+			border-bottom: 1px solid black;
+			border: 1px solid gray;
+			font-size: 20px;
+			padding-left: 20px;
+			border-radius: 5px;
+		}
+		.logbt
+		{
+			margin-bottom: 20px;
+			height: 45px;
+			background-color: #1877F2;
+			border-radius: 5px;
+			font-family: arial;
+			color: white;
+			font-size: 20px;
+			transition-duration: 1s;
+        }
+        .logbt:hover{
+        	transform: scale( 1.03);
+        }
+        .fgpw{
+        	margin-bottom: 30px;
+        	font-family: arial;
+        	font-size: 15px;
+        }
+        .createacc
+        {
+        	margin-top: 30px;
+        	background-color: #00ab41;
+        	height: 45px;
+        	border-radius: 5px;
+        	color: white;
+        	font-size: 20px;
+        }
+        hr{
+        	margin-top: 10px;
+        	margin-left: 5%;
+        }
+
+		
+
+	</style>
+</head>
+<body>
+	<div class="mdiv">
+		<h1 class="fblogo">Facebook</h1>
+		<p class="para">
+			connect with friends and the world
+			<br>
+			around you on facebook
+		</p>
+	</div>
+	<div class="lgnfrm" style="background-color:white ;">
+		<form align="center">
+			<input type="name" name="usn" class="user" placeholder="Email or Phone Number" id="usr">
+			<input type="pasword" name="psw"class="pass" placeholder="Password" id="pass">
+			<input type="button" name="login" class="logbt" value="Login" onclick="validate()">
+			<span>
+				<a href="#" class="fgpw" style="margin-bottom:10px;">Forget Password</a>
+			</span>
+			<br>
+			<br>
+			<hr width="90%">
+			<input type="button" name="createacc" class="createacc" value="Create New Account">
+		</form>
+	</div>
+	<script type="text/javascript">
+		
+	</script>
+
+</body>
+</html>
